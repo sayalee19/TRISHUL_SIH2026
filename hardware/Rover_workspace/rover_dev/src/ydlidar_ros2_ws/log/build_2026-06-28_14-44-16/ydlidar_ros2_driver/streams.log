@@ -1,0 +1,122 @@
+[0.010s] Invoking command in '/home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.328s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.609s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.665s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.672s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.683s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.781s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.878s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.905s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.956s] -- Looking for pthread.h
+[1.032s] -- Looking for pthread.h - found
+[1.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.117s] -- Found Threads: TRUE  
+[1.189s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.232s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.259s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.279s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.376s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.380s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.381s] -- Configured cppcheck include dirs: /home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src
+[1.381s] -- Configured cppcheck exclude dirs and/or files: 
+[1.386s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.386s] -- Configured cpplint exclude dirs and/or files: 
+[1.387s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.389s] -- Added test 'lint_cmake' to check CMake code style
+[1.390s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.394s] -- Added test 'uncrustify' to check C / C++ code style
+[1.394s] -- Configured uncrustify additional arguments: 
+[1.395s] -- Added test 'xmllint' to check XML markup files
+[1.397s] -- Configuring done
+[1.413s] -- Generating done
+[1.419s] -- Build files have been written to: /home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[1.430s] Invoked command in '/home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver
+[1.432s] Invoking command in '/home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[1.488s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[1.488s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[4.253s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[4.254s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.254s]   191 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[4.254s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.254s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.254s]   192 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.254s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.254s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.254s]   193 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[4.254s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.271s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[4.271s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.271s]   201 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[4.271s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.271s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.271s]   202 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.271s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.271s] [01m[K/home/frisk-cara/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.271s]   203 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[4.271s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.578s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[8.036s] [ 75%] Built target ydlidar_ros2_driver_node
+[10.533s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[10.974s] [100%] Built target ydlidar_ros2_driver_client
+[10.986s] Invoked command in '/home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[10.997s] Invoking command in '/home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[11.004s] -- Install configuration: ""
+[11.005s] -- Execute custom install script
+[11.005s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[11.014s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[11.023s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[11.032s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[11.041s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[11.050s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[11.059s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[11.069s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml
+[11.079s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[11.089s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[11.098s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[11.108s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[11.116s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[11.126s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml
+[11.135s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml
+[11.144s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[11.153s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[11.164s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[11.175s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[11.185s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[11.194s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[11.204s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[11.213s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[11.223s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[11.232s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[11.243s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[11.253s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[11.262s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[11.274s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[11.282s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[11.293s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[11.303s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[11.312s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[11.322s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[11.331s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[11.341s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[11.350s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[11.359s] -- Symlinking: /home/frisk-cara/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[11.372s] Invoked command in '/home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/frisk-cara/ydlidar_ros2_ws/build/ydlidar_ros2_driver
