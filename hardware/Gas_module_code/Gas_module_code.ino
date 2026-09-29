@@ -86,7 +86,7 @@ namespace H2S {
   // ADC1 -- on the S3, ADC1 channels are GPIO1-10, so 33 may actually be an
   // S2/classic-ESP32 pin mapping left over from a template. Double-check
   // against your actual board's pinout before trusting this.
-  const int SENSOR_PIN = 4;
+  const int SENSOR_PIN = 35;
 
   const unsigned long WARMUP_TIME_MS = 120000; // assumes sensor already aged (48h/72h/168h per storage time)
   const float PPM_MIN_VALID = 0.5;
@@ -216,7 +216,7 @@ namespace CO {
   const float VCC_MV  = 3300.0;   // VERIFY against actual wiring
   const float RL_KOHM = 10.0;     // VERIFY against schematic -- shares the MICS-5524 physical sensor if that's what generated this data (see note below)
 
-  const int SENSOR_PIN = 5;      // placeholder -- pick a real free ADC1 pin, distinct from all other gas namespaces
+  const int SENSOR_PIN = 34;      // placeholder -- pick a real free ADC1 pin, distinct from all other gas namespaces
 
   const unsigned long WARMUP_TIME_MS = 120000; // settle window only, same caveat as all others
   const float PPM_MIN_VALID = 0.94;    // lower bound the fit was validated over
@@ -306,7 +306,7 @@ namespace NH3 {
   const float VCC_MV  = 3300.0;   // VERIFY against actual wiring
   const float RL_KOHM = 10.0;     // VERIFY against this board's schematic -- shares the MICS-5524 physical sensor if that's what generated this data
 
-  const int SENSOR_PIN = 5;      // placeholder -- pick a real free ADC1 pin, distinct from all other gas namespaces
+  const int SENSOR_PIN = 34;      // placeholder -- pick a real free ADC1 pin, distinct from all other gas namespaces
 
   const unsigned long WARMUP_TIME_MS = 120000; // settle window only, same caveat as all others
   const float PPM_MIN_VALID = 1.26;    // lower bound the fit was validated over
@@ -393,7 +393,7 @@ namespace Propane {
   const float VCC_MV  = 3300.0;   // VERIFY
   const float RL_KOHM = 10.0;     // VERIFY
 
-  const int SENSOR_PIN = 5;      // placeholder -- pick a real free ADC1 pin, distinct from all other gas namespaces
+  const int SENSOR_PIN = 34;      // placeholder -- pick a real free ADC1 pin, distinct from all other gas namespaces
 
   const unsigned long WARMUP_TIME_MS = 120000;
   const float PPM_MIN_VALID = 3116.76;
@@ -477,7 +477,7 @@ namespace H2 {
   const float VCC_MV  = 3300.0;   // VERIFY
   const float RL_KOHM = 10.0;     // datasheet says "Adjustable" -- VERIFY your board's actual value
 
-  const int SENSOR_PIN = 34;  // placeholder -- pick a real ADC1 pin (GPIO1-10 on ESP32-S3), distinct from H2S's
+  const int SENSOR_PIN = 33;  // placeholder -- pick a real ADC1 pin (GPIO1-10 on ESP32-S3), distinct from H2S's
 
   const unsigned long WARMUP_TIME_MS = 120000; // shorter aging requirement than H2S (24h/48h/72h vs 48h/72h/168h) -- still just a settle window here, do full aging on the bench first
   const float PPM_MIN_VALID = 0.1;
@@ -629,7 +629,7 @@ namespace CH4 {
   const float VCC_MV  = 3300.0;   // VERIFY against actual wiring
   const float RL_KOHM = 10.0;     // VERIFY against this board's schematic
 
-  const int SENSOR_PIN = 35;      // placeholder -- pick a real free ADC1 pin (GPIO1-10 on ESP32-S3), distinct from H2S/H2/others already used
+  const int SENSOR_PIN = 32;      // placeholder -- pick a real free ADC1 pin (GPIO1-10 on ESP32-S3), distinct from H2S/H2/others already used
 
   const unsigned long WARMUP_TIME_MS = 120000; // settle window only -- same caveat as H2/H2S, do full aging separately
   const float PPM_MIN_VALID = 392.0;   // lower bound the fit was validated over
