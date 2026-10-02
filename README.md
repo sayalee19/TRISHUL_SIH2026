@@ -1,4 +1,40 @@
 ## Ready Prototype Images
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <!-- Left Image and Caption -->
+    <td align="left" style="border: none; width: 50%;">
+      <img src="images/rath_1.png" alt="Rath-1" width="300"><br>
+      <small>RATH</small>
+    </td>
+    <!-- Right Image and Caption -->
+    <td align="right" style="border: none; width: 50%;">
+      <img src="images/rath_2.png" alt="Rath-2" width="300"><br>
+      <small>RATH- Internal View</small>
+    </td>
+  </tr>
+</table>
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <!-- Left Image and Caption -->
+    <td align="left" style="border: none; width: 50%;">
+      <img src="images/mukut.png" alt="mukut" width="300"><br>
+      <small>MUKUT</small>
+    </td>
+    <!-- Right Image and Caption -->
+    <td align="right" style="border: none; width: 50%;">
+      <img src="images/saarthi.png" alt="Saarthi" width="300"><br>
+      <small>SAARTHI</small>
+    </td>
+  </tr>
+</table>
+
+<br clear="both" />
+
+<div align="center" style="margin-top: 20px;">
+  <img src="images/website.png" alt="WEBSITE" width="100%">
+  <br>
+  <small>Overview of the Website Dashboard</small>
+</div>
 
 ## Problem Statement
 To assist rescue teams during emergencies in underground coal mines, providing them with real time information of the underground conditions and reducing response delays.
