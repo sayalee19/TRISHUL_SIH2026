@@ -17,12 +17,12 @@
   <tr>
     <!-- Left Image and Caption -->
     <td align="left" style="border: none; width: 50%;">
-      <img src="images/mukut.png" alt="mukut" width="300"><br>
+      <img src="images/mukut.jpeg" alt="mukut" width="300"><br>
       <small>MUKUT</small>
     </td>
     <!-- Right Image and Caption -->
     <td align="right" style="border: none; width: 50%;">
-      <img src="images/saarthi.png" alt="Saarthi" width="300"><br>
+      <img src=""C:\Users\sayal\TRISHUL_SIH2026\images\saarthi.jpeg"" alt="Saarthi" width="300"><br>
       <small>SAARTHI</small>
     </td>
   </tr>
@@ -31,7 +31,7 @@
 <br clear="both" />
 
 <div align="center" style="margin-top: 20px;">
-  <img src="images/website.png" alt="WEBSITE" width="100%">
+  <img src="images/website.jpeg" alt="WEBSITE" width="100%">
   <br>
   <small>Overview of the Website Dashboard</small>
 </div>
