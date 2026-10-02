@@ -22,7 +22,7 @@
     </td>
     <!-- Right Image and Caption -->
     <td align="right" style="border: none; width: 50%;">
-      <img src=""C:\Users\sayal\TRISHUL_SIH2026\images\saarthi.jpeg"" alt="Saarthi" width="300"><br>
+      <img src="images\saarthi.jpeg" alt="Saarthi" width="300"><br>
       <small>SAARTHI</small>
     </td>
   </tr>
